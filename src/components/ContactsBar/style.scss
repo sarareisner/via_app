@@ -1,0 +1,20 @@
+@import '../../styles/_colors.scss';
+.contactsBar {
+    .appBar {
+        background-color: $blue-color;
+        .toolbar {
+            justify-content: space-between;
+            .searchWrapper {
+                display: flex;
+                align-items: center;
+                border-radius: 20px;
+                input {
+                    padding-left: 10px;
+                }
+                svg {
+                    color: gray;
+                }
+            }
+        }
+    }
+}

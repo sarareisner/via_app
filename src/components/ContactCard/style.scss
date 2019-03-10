@@ -1,0 +1,31 @@
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: none !important;
+    .cardMedia {
+        flex-grow: 1;
+        margin: 16px 16px 0 16px;
+    }
+    .cardContent {
+        position: relative;
+        text-align: left;
+        padding: 0 16px;
+        &.mainContent {
+            padding-top: 30px;
+        }
+        .typeIcon {
+            position: absolute;
+            top: -25px;
+            width: 50px;
+            height: 50px;
+            left: 27px;
+        }
+        .details {
+            color: gray;
+        }
+    }
+}
