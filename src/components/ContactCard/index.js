@@ -22,7 +22,6 @@ class ContactCard extends React.Component {
         <CardMedia
 					className="cardMedia"
           image={contact.profile_image}
-          title="Paella dish"
         />
         <CardContent className="cardContent mainContent">
 					<img className="typeIcon" src={contact.driverType === 'Citizen' ? CitizenIcon: ProfessionalIcon} alt="citizen"/>
